@@ -1,0 +1,166 @@
+@media (max-width: 860px){
+    header .header-container nav ul{
+        display: none;
+    }
+
+    header img{
+        margin: 10px;
+    }
+
+    .text-banner h1{
+        font-size: 45px;
+    }
+    .text-banner h1:nth-child(2) {
+        font-size: 45px;
+    }
+
+    .text-banner h2 {
+        margin-top: 20px;
+        font-size: 1em;
+    }    
+
+    .box-description--team{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .company{
+        flex-direction: column;
+    }
+
+    .company-iframe{
+        min-width: auto;
+        max-width: 480px;
+        margin: auto;
+    }
+
+    .company p{
+        width: 70%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .company-text{
+        text-align: center;
+    }
+
+    .service-box{
+        flex-direction: column;
+        row-gap: 40px;
+        margin-bottom: 60px;
+    }
+    .box-content-service{
+        border: none;
+    }
+
+    .footer-register{
+        padding-top: 10px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    .team-description--photo_area{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-team{
+        width: 60vw;
+    }
+
+    .box-project{
+        width: 70%;
+    }
+    .clients{
+        flex-wrap: wrap;
+    }
+    .clients img {
+        margin: 10px;
+    }
+    .contact-container > form {
+        width: auto;
+    }
+
+    footer .footer-container{
+        flex-direction: column;
+    }
+    .box-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .link, footer p, .footer-register{
+        width: 50vw;
+    }
+    .footer-register{
+        padding-top: 10px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    .team-description--photo_area{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 490px){
+    .text-banner h1, .text-banner h1:nth-child(2) {
+        font-size: 30px;
+    }
+    
+    .text-banner h2{
+        font-size: .8em;
+    }
+
+    .company{
+        column-gap: normal;
+        margin: 0 0 40px 0;
+    }
+
+    .company p{
+        width: 90%;
+    }
+
+    .box-project {
+        width: 85%;
+    }
+
+    .box-team {
+        width: 65%;
+    }
+
+    .quote > p {
+        margin: 15px;
+        text-align: justify;
+    }
+
+    .info-map{
+        padding: 30px 25px;
+    }
+
+    form{
+        width: 90%;
+    }
+    
+    .footer-description p,
+    .footer-links,
+    .footer-register{
+        width: 80%;
+    }
+
+    .footer-links{
+        margin: auto;
+    }
+
+    .footer-register {
+        padding: 15px 0;
+    }
+
+    .footer-register form > input[type="email"] {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
